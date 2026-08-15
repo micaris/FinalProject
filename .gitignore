@@ -1,0 +1,27 @@
+# Ignore everything
+/*
+
+# Except these folders
+!/Data/
+!/pricing_lib/
+
+# And these specific files
+!.gitignore
+!README.md
+!pyproject.toml
+!/ProjectTask_QRH.ipynb
+
+# Un-ignore everything inside pricing_lib except misc and .idea
+!/pricing_lib/**/
+!/pricing_lib/**
+/pricing_lib/misc/
+/pricing_lib/.idea/
+/pricing_lib/QRH_CALIBRATION_REVIEW.md
+**/__pycache__/
+# Un-ignore everything inside Data except FX
+!/Data/**/
+!/Data/**
+/Data/FX/
+
+# macOS
+**/.DS_Store
